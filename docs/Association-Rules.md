@@ -23,7 +23,7 @@ In this SSE, we have used the [Efficient-Apriori](https://github.com/tommyod/Eff
 There are standard measures that help to measure the association between items:
 
 - Support: The support of a rule is the frequency of which the antecedent and consequent appear together in the dataset. If `X -> Y`, then the support is `P(Y and X)`.
-- Condifence: The confidence of a rule is the probability of the consequent given the antecedent. If `X -> Y`, then the confidence is `P(Y|X)`.
+- Confidence: The confidence of a rule is the probability of the consequent given the antecedent. If `X -> Y`, then the confidence is `P(Y|X)`.
 - Lift: The lift of a rule is the ratio of the observed support to the expected support if the antecedent and consequent were independent. If X -> Y, then the lift is given by the fraction P(X and Y) / (P(X) * P(Y)). 
 
 ## Quick Start
